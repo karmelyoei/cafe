@@ -1,5 +1,7 @@
 import React from "react";
 import "./Body.css";
+
+
 const Body = () => {
   return (
     <div id="page" class="site">
@@ -47,43 +49,26 @@ const Body = () => {
               id="post-2"
               class="post-2 page type-page status-publish hentry entry"
             >
-              <div class="entry-content">
-                <div
-                  class="wp-block-cover alignfull is-light has-parallax"
-                  className="content"
+              <div class="background">
+
+
+                <h1
+                  class="has-text-align-center"
+                  id="way-too-much-coffee"
+                  className="text"
                 >
-                  <span
-                    aria-hidden="true"
-                    class="has-background-dim-20 wp-block-cover__gradient-background has-background-dim"
-                    className="content2"
-                  ></span>
-                  <div class="wp-block-cover__inner-container">
-                    <hr class="wp-block-separator" />
+                  <em>Way too much coffee</em>
+                </h1>
 
-                    <div
-                      class="wp-block-spacer"
-                      className="content3"
-                      aria-hidden="true"
-                    ></div>
-
-                    <h1
-                      class="has-text-align-center"
-                      id="way-too-much-coffee"
-                      className="text"
-                    >
-                      <em>Way too much coffee</em>
-                    </h1>
-
-                    <div
-                      className="content3"
-                      aria-hidden="true"
-                      class="wp-block-spacer"
-                    ></div>
-
-                    <hr class="wp-block-separator" />
-                  </div>
-                </div>
               </div>
+              <div
+                className="content3"
+                aria-hidden="true"
+                class="wp-block-spacer"
+              ></div>
+
+              <hr class="wp-block-separator" />
+
 
               <div
                 className="content4"
@@ -119,25 +104,8 @@ const Body = () => {
                 aria-hidden="true"
                 class="wp-block-spacer"
               ></div>
-
-              <div
-                class="wp-block-cover alignfull is-light has-parallax"
-                className="content7"
-              >
-                <span
-                  aria-hidden="true"
-                  class="has-background-dim-20 wp-block-cover__gradient-background has-background-dim"
-                  className="content6"
-                ></span>
-                <div class="wp-block-cover__inner-container">
-                  <hr class="wp-block-separator" />
-
-                  <div
-                    className="content3"
-                    aria-hidden="true"
-                    class="wp-block-spacer"
-                  ></div>
-
+               <div class="background2">
+            
                   <h2
                     class="has-text-align-center"
                     id="discover-our-menu"
@@ -145,6 +113,7 @@ const Body = () => {
                   >
                     <em>Discover Our Menu</em>
                   </h2>
+                  </div>
 
                   <div
                     className="content3"
@@ -153,9 +122,7 @@ const Body = () => {
                   ></div>
 
                   <hr class="wp-block-separator" />
-                </div>
-              </div>
-
+           
               <div
                 className="content4"
                 aria-hidden="true"

@@ -3,12 +3,10 @@
   max-width: none !important;
   width: 95%;
   background-repeat: no-repeat;
- 
 }
 
 .content2 {
   background-color: #000000;
-
 }
 
 .content3 {
@@ -35,16 +33,33 @@
   background-image: url("https://rockfieldstarter.files.wordpress.com/2020/06/ceiling-chairs-clean-2225570-1-1.jpg");
 }
 
-.wp-block-cover__inner-container{
+.wp-block-cover__inner-container {
   padding-top: 50px;
-  height: 245px
-;
+  height: 245px;
 }
 
-.text{
-  color:rgb(251, 101, 194);;
+.text {
+  color: rgb(243, 19, 157);
+  position: relative;
+  top: 188px;
+  font-size: 163px;
 }
 
-.site-main{
-  
+.site-main {
+}
+
+.background {
+  background-image: url("../assets/cafe.jpg");
+  height: 575px;
+  background-repeat: no-repeat;
+  width: 97%;
+  margin-left: 32px;
+}
+
+.background2 {
+  background-image: url("../assets/cake.jpg");
+  height: 575px;
+  background-repeat: no-repeat;
+  width: 97%;
+  margin-left: 32px;
 }

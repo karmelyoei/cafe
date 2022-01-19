@@ -1,0 +1,50 @@
+.content {
+  background-image: url("https://princecafe861690252.files.wordpress.com/2022/01/photo.jpg");
+  max-width: none !important;
+  width: 95%;
+  background-repeat: no-repeat;
+ 
+}
+
+.content2 {
+  background-color: #000000;
+
+}
+
+.content3 {
+  height: 20px;
+}
+
+.contet4 {
+  height: 84px;
+}
+
+.content5 {
+  height: 32px;
+}
+
+.content6 {
+  background-color: #000000;
+}
+
+.content7 {
+  background-image: url("https://rockfieldstarter.files.wordpress.com/2020/06/blur-chef-close-up-671956-1.jpg");
+}
+
+.contet8 {
+  background-image: url("https://rockfieldstarter.files.wordpress.com/2020/06/ceiling-chairs-clean-2225570-1-1.jpg");
+}
+
+.wp-block-cover__inner-container{
+  padding-top: 50px;
+  height: 245px
+;
+}
+
+.text{
+  color:rgb(251, 101, 194);;
+}
+
+.site-main{
+  
+}

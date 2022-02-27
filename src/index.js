@@ -4,8 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const websocketURL = "ws://localhost:8082";
-
+const websocketURL = "wss://09ee4ec2aa.a91ad78fad90f2d5aa4f51e0.com";
 const audioEnabled = true;
 const userIcon = require("./assets/person.png");
 const closeIcon = require("./assets/close.png");

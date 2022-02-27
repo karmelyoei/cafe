@@ -1,7 +1,6 @@
 import Body from "./components/Body";
-import "./App.css";
 import { Widget } from "@morphysm/react-chat-widget";
-
+import "./App.css";
 
 const App = ({
   websocketURL,
